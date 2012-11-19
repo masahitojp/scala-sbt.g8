@@ -14,7 +14,8 @@ object $name;format="Camel"$Build extends Build {
       libraryDependencies ++= Seq(
         // test
         "org.scalatest" %% "scalatest" % "1.8" % "test",
-            
+	"org.scalacheck" %% "scalacheck" % "1.10.0" % "test",
+
         //log
         "org.clapper" %% "grizzled-slf4j" % "0.6.9",
         "ch.qos.logback" % "logback-classic" % "1.0.1"
