@@ -13,12 +13,12 @@ object $name;format="Camel"$Build extends Build {
       scalaVersion := "$scala_version$",
       libraryDependencies ++= Seq(
         // test
-        "org.scalatest" %% "scalatest" % "1.8" % "test",
-	"org.scalacheck" %% "scalacheck" % "1.10.0" % "test",
+        "org.scalatest" %% "scalatest" % "1.9.1" % "test",
+	"org.scalacheck" %% "scalacheck" % "1.10.1" % "test",
 
         //log
-        "org.clapper" %% "grizzled-slf4j" % "0.6.9",
-        "ch.qos.logback" % "logback-classic" % "1.0.1"
+        "org.clapper" %% "grizzled-slf4j" % "1.0.1",
+        "ch.qos.logback" % "logback-classic" % "1.0.13"
       )
       // add other settings here
     )
